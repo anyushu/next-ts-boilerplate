@@ -5,19 +5,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "check-types": "tsc --noEmit",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --write .",
-    "test-all": "npx yarn-run-all lint check-types format lint:fix",
+    "test-all": "npx yarn-run-all lint type-check format lint:fix",
     "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "yarn lint",
-      "yarn format",
-      "yarn lint:fix"
-    ]
   },
   "dependencies": {
     "next": "12.0.4",
@@ -30,13 +23,16 @@
     "@types/react": "17.0.35",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
+    "autoprefixer": "^10.4.0",
     "eslint": "7",
     "eslint-config-next": "12.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.0.3",
+    "postcss": "^8.3.11",
     "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.19",
     "typescript": "4.5.2"
   }
 }
