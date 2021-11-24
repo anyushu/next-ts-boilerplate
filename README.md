@@ -7,7 +7,7 @@ First, run the development server:
 yarn install
 
 # Enable husky
-yarn husky install
+yarn prepare
 
 # Start dev server
 yarn dev
