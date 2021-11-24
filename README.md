@@ -17,15 +17,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Installed Packages
 
-- Next.js 12
-- react 17
-- typescript 4
-- eslint 7
-- husky 7
-- lint-staged 12
-- postcss 8
-- prettier 2
-- tailwindcss 2
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [husky](https://typicode.github.io/husky/#/)
+- [lint-staged](https://github.com/okonet/lint-staged#readme)
+- [PostCSS](https://postcss.org/)
+- [Prettier](https://prettier.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Project Structure
 
