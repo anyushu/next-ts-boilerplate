@@ -6,9 +6,6 @@ First, run the development server:
 # Install dependencies
 yarn install
 
-# Enable husky
-yarn prepare
-
 # Start dev server
 yarn dev
 ```
@@ -18,6 +15,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Installed Packages
 
 - [Next.js](https://nextjs.org/)
+- [Next SEO](https://github.com/garmeeh/next-seo#readme)
+- [Next SiteMap](https://github.com/iamvishnusankar/next-sitemap)
 - [Typescript](https://www.typescriptlang.org/)
 - [ESLint](https://eslint.org/)
 - [husky](https://typicode.github.io/husky/#/)
@@ -35,19 +34,23 @@ app
 ├─ public
 ├─ src
 │ ├─ components
-│ ├─ context
+│ │ ├─ atoms
+│ │ ├─ molecules
+│ │ ├─ organisms
+│ │ └─ templates
 │ ├─ lib
 │ ├─ models
 │ ├─ pages
 │ ├─ styles
-│ └─ util
-├─ .babelrc
+│ ├─ util
+│ └─ next-seo.config.ts
 ├─ .env.example
 ├─ .eslintrc.json
 ├─ .node-version
 ├─ .prettierrc.json
 ├─ lint-staged.config.js
 ├─ next-env.d.ts
+├─ next-sitemap.js
 ├─ next.config.js
 ├─ postcss.config.js
 ├─ tailwind.config.js
