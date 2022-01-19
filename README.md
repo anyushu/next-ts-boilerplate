@@ -1,3 +1,5 @@
+# NextJS Boilerplate
+
 ## Getting Started
 
 First, run the development server:
@@ -39,7 +41,7 @@ app
 │ │ ├─ organisms
 │ │ └─ templates
 │ ├─ lib
-│ ├─ models
+│ ├─ types
 │ ├─ pages
 │ ├─ styles
 │ ├─ util
