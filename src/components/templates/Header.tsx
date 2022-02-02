@@ -1,4 +1,4 @@
-const Header = () => {
+const Header = (): JSX.Element => {
   return <></>
 }
 

@@ -2,11 +2,11 @@ import { ReactNode } from 'react'
 import Footer from 'components/templates/Footer'
 import Header from 'components/templates/Header'
 
-type Props = {
+type LayoutProps = {
   children: ReactNode
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <>
       <Header />
