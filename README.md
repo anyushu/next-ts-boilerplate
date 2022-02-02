@@ -40,7 +40,7 @@ app
 │ │ ├─ molecules
 │ │ ├─ organisms
 │ │ └─ templates
-│ ├─ lib
+│ ├─ libs
 │ ├─ types
 │ ├─ pages
 │ ├─ styles
