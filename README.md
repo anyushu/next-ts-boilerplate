@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [Next.js](https://nextjs.org/)
 - [Next SEO](https://github.com/garmeeh/next-seo#readme)
 - [Next SiteMap](https://github.com/iamvishnusankar/next-sitemap)
-- [Typescript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [ESLint](https://eslint.org/)
 - [husky](https://typicode.github.io/husky/#/)
 - [lint-staged](https://github.com/okonet/lint-staged#readme)
@@ -30,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Project Structure
 
 ```md
-app
+.
 ├─ .husky
 ├─ .vscode
 ├─ public
@@ -44,8 +44,7 @@ app
 │ ├─ types
 │ ├─ pages
 │ ├─ styles
-│ ├─ util
-│ └─ next-seo.config.ts
+│ └─ utils
 ├─ .env.example
 ├─ .eslintrc.json
 ├─ .node-version
