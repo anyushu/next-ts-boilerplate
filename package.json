@@ -9,7 +9,6 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}'",
-    "test-all": "npx yarn-run-all lint type-check format lint:fix",
     "prepare": "husky install"
   },
   "dependencies": {
