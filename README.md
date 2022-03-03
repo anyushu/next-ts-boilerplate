@@ -26,6 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [PostCSS](https://postcss.org/)
 - [Prettier](https://prettier.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Webpack Bundle Analyzer](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer#nextjs--webpack-bundle-analyzer)
 
 ## Project Structure
 
@@ -45,16 +46,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 │ ├─ pages
 │ ├─ styles
 │ └─ utils
-├─ .env.example
 ├─ .eslintrc.json
-├─ .node-version
 ├─ .prettierrc.json
 ├─ lint-staged.config.js
-├─ next-env.d.ts
 ├─ next-sitemap.js
 ├─ next.config.js
 ├─ postcss.config.js
-├─ tailwind.config.js
 ├─ tsconfig.json
-└─ yarn.lock
+└─ tailwind.config.js
 ```
