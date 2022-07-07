@@ -11,8 +11,8 @@ const Home: NextPage = () => {
     <>
       <NextSeo title="Home Page" />
       <Layout>
-        <section className="container px-3 mx-auto max-w-5xl">
-          <div className="py-12 border-b">
+        <section className="container mx-auto max-w-5xl px-3">
+          <div className="border-b py-12">
             <h2 className="mb-6 text-2xl font-bold">Atoms</h2>
             <Button
               label="Button"
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
               }}
             />
           </div>
-          <div className="bottom-1 py-12 border-b">
+          <div className="bottom-1 border-b py-12">
             <h2 className="mb-6 text-2xl font-bold">Molecules</h2>
             <InputGroup
               title="Email"

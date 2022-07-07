@@ -9,12 +9,12 @@ type InputGroupProps = {
 export const InputGroup = ({ title, labelProps, inputPorps }: InputGroupProps) => {
   return (
     <div>
-      <label {...labelProps} className="block mb-2 font-medium text-gray-700">
+      <label {...labelProps} className="mb-2 block font-medium text-gray-700">
         {title}
       </label>
       <input
         {...inputPorps}
-        className="block p-2 w-full rounded-md border border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+        className="block w-full rounded-md border border-gray-300 p-2 focus:border-indigo-500 focus:ring-indigo-500"
       />
     </div>
   )
